@@ -47,7 +47,7 @@ ghost/master/shiori/variable.luad6d8352da059d0a00296b9928a783fc2size=1205date
 ghost/master/talk/_readelf.lua30a747092d04b1fdb473591d7a62e5b0size=2254date=2023-07-17T21:46:06
 ghost/master/talk/boot.luac408137f0e90dba06bf0db3735e44cfasize=4011date=2023-07-17T21:46:06
 ghost/master/talk/input.lua147e0027f9eeea5833fa28ef8fae5309size=187date=2023-07-17T21:46:06
-ghost/master/talk/menu.luab63ffae600b0bb7ee1b3b51c06c9d829size=1082date=2023-07-17T21:46:06
+ghost/master/talk/menu.lua9225fb23f5a196d4df8f619daa2bd031size=969date=2023-07-20T21:44:09
 ghost/master/talk/misc.luaac1bce462986c995841a3114d547c35bsize=90date=2023-07-17T21:46:06
 ghost/master/talk/random/command.lua41b1c7674f816a0e8c2c6ff529864547size=5100date=2023-07-17T21:46:06
 ghost/master/talk/random/etc.lua1b97667b3afeb011d4a2ee61f31ad09dsize=28211date=2023-07-17T21:46:06
@@ -62,6 +62,7 @@ ghost/master/talk/resource.lua698039993ae0aaca6951279b167d2d31size=1494date=2
 ghost/master/talk/system/baseware.lua0bd607d6de3992dc197bf710759cd0fasize=3309date=2023-07-17T21:46:06
 ghost/master/talk/system/debug.luaf8608d85ed97f1a080163152c1757111size=851date=2023-07-17T21:46:06
 ghost/master/talk/system/notify.luac7d45b3208d0a7d77152e2902c03dacasize=1947date=2023-07-17T21:46:06
+ghost/master/talk/update.luae8351ce7a8abde6fbca0feec0698ff5dsize=3467date=2023-07-20T21:44:09
 install.txt5eb0b11de78dd2490bd17701db6b4b07size=103date=2023-07-17T21:46:06
 shell/master/descript.txtb66c196f6e2732b3294809107fb21368size=116date=2023-07-17T21:46:07
 shell/master/surface000.png757376378628729a070e41109d08571asize=122470date=2023-07-17T21:46:07
