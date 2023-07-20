@@ -25,12 +25,6 @@ return {
     content = nil,
   },
   {
-    id  = "OnTalkRandom",
-    content = function(shiori, ref)
-      return shiori:talkRandom()
-    end,
-  },
-  {
     id  = "OnSetting",
     content = function(shiori, ref)
       local __  = shiori.var
