@@ -1038,4 +1038,90 @@ LinuxとUNIXってどんな関係なの？@\n
 何を期待しとんのや。\n
 ]],
   },
+  {
+    content = [[
+\1\s[素]
+\0\s[素]
+RedHatがRHELのソースコードの再配布を禁止するみたいだね。\n
+RHELクローンなLinux使ってた人はどうするんだろう？@\n
+\1
+* おとなしくRHELを使う\w9\w9\n
+* SUSEが何かするらしいのでそっちに期待\w9\w9\n
+* やっぱUbuntuでしょ\w9\w9\n
+* 漢は黙ってFreeBSD\w9\w9\n
+\n[half]
+っちゅう感じでどうや。\n
+\0\s[苦笑]
+下2つは違うんじゃないかなあ…。\n
+]],
+  },
+  {
+    content = [[
+\1\s[素]
+\0\s[素]
+ファイル名の最初に「.」がつくファイルは隠しファイルになるよ。\n
+\1
+エロ画像隠すのには向いてへんで。\n
+\0\s[苦笑]
+\n[half]
+まあね。\n
+\s[素]
+configとか、見せる必要が少ないファイルを見えないようにするのが主目的だね。\n
+\1
+\n[half]
+エロ画像隠すなら暗号化したLVMに放り込んでおく方が賢明やで。\n
+\0\s[目閉じ]
+\n[half]
+その話は続けなくて良いから。\n
+]],
+  },
+  {
+    content = [[
+\1\s[素]
+\0\s[素]
+Discordでボイスチャットしたいけど、マイクを使うわけにはいかない。
+でも、ボイスは送りたい…って時に使えるソフトって何かないかな？@\n
+\1
+jackやのうてpulseaudioを前提とした話やけどな。\n
+まずVOICEVOXをダウンロードするやろ？@\n
+\0\s[ドヤッ]
+\n[half]
+ういうい、したよ！@\n
+\1
+\n[half]
+端末で次のコマンドを実行する。\n
+$ pacmd load-module module-null-sink sink_name=DummyOutput0 sink_properties=device.description=DummyOutput0\w9\w9\n
+\0\s[おこ]
+\n[half]
+ふむふむ。
+\1
+\n[half]
+んで、pavucontrolを実行して、VOICEVOXの音声出力先をDummyOutput0に指定する。\n
+VOICEVOXで音声を再生しているときじゃないと一覧に表示されないから注意や。\n
+\0
+\n[half]
+ほー。\n
+\1
+\n[half]
+最後に、Discordの音声設定で入力を「Monitor of DummyOutput0」にすれば
+ボイスチャットの音声にVOICEVOXを使えるようになるで。\n
+\0
+\n[half]
+へー。\n
+\1
+\n[half]
+このままだとVOICEVOXの出力が聞こえへんと思うんで、その場合は\n
+$ pacmd load-module module-loopback source=DummyOutput0.monitor\n
+して出力されるようにすればOKや。\n
+\0\s[ドヤッ]
+\n[half]
+完全に理解した。\n
+\1
+\n[half]
+はいはい。\n
+\0\s[驚き]
+\n[half]
+流された！？@\n
+]],
+  },
 }
