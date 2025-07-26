@@ -11,8 +11,7 @@ local Protocol  = Module.Protocol
 local Request   = Module.Request
 local Response  = Module.Response
 
-local M   = Class()
-M.__index = M
+local M   = {}
 
 function M:_init(path, sender)
   self.path     = path
@@ -70,12 +69,12 @@ function M:request(...)
     str = Conv.conv(str, self.charset, "UTF-8") or str
   end
   local ret = self.native:request(str)
-  local tmp = Response.parse(ret)
+  local tmp = Response.class().parse(ret)
   self.charset = tmp:header("Charset") or "UTF-8"
   if self.charset and self.charset ~= "UTF-8" then
     ret = Conv.conv(ret, "UTF-8", self.charset) or ret
   end
-  local res = Response.parse(ret)
+  local res = Response.class().parse(ret)
   res:request(req)
   return res
 end
@@ -85,4 +84,4 @@ function M:unload()
   return ret
 end
 
-return M
+return Class(M)
