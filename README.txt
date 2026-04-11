@@ -73,17 +73,6 @@ Linuxについてあることないこと喋るゴーストです。
 ご自由に。
 
 
-### シェル
-
-さくら(\0)側は
-https://github.com/bes-dev/stable_diffusion.openvino
-を用いて生成した画像を少し手直しして
-https://github.com/pkhungurn/talking-head-anime-3-demo
-で差分を生成したものを使用しています。
-stable_diffusionのライセンスは
-stable_diffusion.LICENSE.txtに記載されています。
-
-
 ## 使用ライブラリなど
 
 以下のライブラリ/ソフトウェアを使用しています。
