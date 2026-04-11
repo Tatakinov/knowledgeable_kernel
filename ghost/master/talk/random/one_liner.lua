@@ -50,7 +50,7 @@ $ grep -nr "OnSecondChange" .\n
 \0\s[ドヤッ]
 ワンライナー紹介コーナー！@\n
 \1
-$ for i in {0 .. 50}; do mv surface\${i}.png surface$(printf "%03d" $i).png; done
+$ for i in {0 .. 50}; do mv surface\${i}.png surface$(printf "\%03d" $i).png; done
 \0\s[素]
 \n[half]
 surface0.png、surface1.png、…、surface50.pngを\n
@@ -110,7 +110,7 @@ $ ls 2022_0[4-8]_*.txt\n
 \0\s[ドヤッ]
 ワンライナー紹介コーナー！@\n
 \1
-$ for i in *.wav; do ffmpeg -i $i \${i%.*}.mp3; done\w9\w9\n
+$ for i in *.wav; do ffmpeg -i $i \${i\%.*}.mp3; done\w9\w9\n
 \0\s[素]
 カレントディレクトリの○○.wavを○○.mp3に変換するよ。\n
 \1
