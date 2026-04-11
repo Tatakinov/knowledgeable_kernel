@@ -36,7 +36,7 @@ ghost/master/corelib/ukagaka_module/saori/init.luadcef31f860c138ea93c0982a021e6
 ghost/master/corelib/ukagaka_module/saori/protocol.lua9a922eba7df27fd8ac3ba9d84ae8e8fdsize=75date=2023-07-17T21:46:07
 ghost/master/corelib/ukagaka_module/shiori/init.luafd2117671eb142c1cab176d82549e9d0size=180date=2023-07-17T21:46:07
 ghost/master/corelib/ukagaka_module/shiori/protocol.lua0b75174e913e48096624745b2009a284size=102date=2023-07-17T21:46:07
-ghost/master/descript.txt536db00cf96663d0a8ce387bf143f9a0size=442date=2023-07-17T21:47:56
+ghost/master/descript.txt3c127300a667eff3691dd1c86de47a3dsize=440date=2026-04-11T21:20:22
 ghost/master/index.luac4d8e0497e42521fbb6e4d245a84dd94size=1549date=2026-04-11T21:12:22
 ghost/master/kagari.conf.lua55894cfd5901ae864a6a88582af9fc0dsize=676date=2023-07-17T21:46:06
 ghost/master/kagari.dll4949b0e3bb2493e2833c381385121660size=136192date=2023-07-17T21:46:06
@@ -86,4 +86,3 @@ shell/master/surface011.png746ce315a9dce047109cc6a6e3915313size=14856date=202
 shell/master/surface012.pngce683cdf3fadaa2453c3e1eff4eb802esize=58594date=2026-04-11T21:12:22
 shell/master/surface013.png841d7b7bd25706d76ca157eb3e2e63d4size=62284date=2026-04-11T21:12:22
 shell/master/surfaces.txt6608a5db83de86db6b406883eb808625size=339date=2024-03-16T15:12:05
-stable_diffusion.LICENSE.txt225d0f1ec021a55a73c949a98bc169e1size=14385date=2023-07-17T21:46:06
