@@ -15,7 +15,7 @@ readme.charset,UTF-8
 
 balloon,ターミナル
 
-homeurl,https://raw.githubusercontent.com/Tatakinov/knowledgeable_kernel/master/
+homeurl,https://raw.githubusercontent.com/Tatakinov/knowledgeable_kernel/main/
 
 default.balloon.path,balloon_terminal
 
