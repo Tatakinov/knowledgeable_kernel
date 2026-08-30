@@ -1,0 +1,8 @@
+charset,UTF-8
+type,shell
+name,3D
+
+craftman,tatakinov
+craftmanw,タタキノフ
+
+ao,sorakado_3d.exe

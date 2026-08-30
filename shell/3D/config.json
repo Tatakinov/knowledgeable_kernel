@@ -1,0 +1,252 @@
+{
+    "model": {
+        "0": {
+            "path": "lina.glb",
+            "bone": {
+                "hips": "J_Bip_C_Hips",
+                "head": "J_Bip_C_Head"
+            }
+        },
+        "1": {
+            "path": "unyu.glb",
+            "bone": {
+                "hips": "Bone.001",
+                "head": "Bone.004"
+            }
+        }
+    },
+    "pose": {
+        "0": {
+            "__default__": {
+                "base": [
+                    {
+                        "type": "animation",
+                        "name": "A-Pose"
+                    }
+                ],
+                "extra": []
+            },
+            "素": {
+                "lookAt": 1,
+                "base": [
+                    {
+                        "type": "animation",
+                        "name": "A-Pose"
+                    }
+                ],
+                "extra": []
+            },
+            "ヮ": {
+                "lookAt": 1,
+                "base": [
+                    {
+                        "type": "animation",
+                        "name": "A-Pose"
+                    },
+                    {
+                        "type": "shape",
+                        "name": "Face/Fcl_MTH_A",
+                        "factor": 1.0
+                    }
+                ],
+                "extra": []
+            },
+            "ドヤッ": {
+                "lookAt": 1,
+                "base": [
+                    {
+                        "type": "animation",
+                        "name": "Hands_Hips"
+                    },
+                    {
+                        "type": "shape",
+                        "name": "Face/Fcl_BRW_Angry",
+                        "factor": 0.6
+                    },
+                    {
+                        "type": "shape",
+                        "name": "Face/Fcl_EYE_Fun",
+                        "factor": 1.0
+                    },
+                    {
+                        "type": "shape",
+                        "name": "Face/Fcl_MTH_A",
+                        "factor": 1.0
+                    }
+                ],
+                "extra": []
+            },
+            "にこ": {
+                "lookAt": 1,
+                "base": [
+                    {
+                        "type": "animation",
+                        "name": "A-Pose"
+                    },
+                    {
+                        "type": "shape",
+                        "name": "Face/Fcl_ALL_Joy",
+                        "factor": 1.0
+                    }
+                ],
+                "extra": []
+            },
+            "困った": {
+                "lookAt": 1,
+                "base": [
+                    {
+                        "type": "animation",
+                        "name": "A-Pose"
+                    },
+                    {
+                        "type": "shape",
+                        "name": "Face/Fcl_BRW_Sorrow",
+                        "factor": 0.5
+                    },
+                    {
+                        "type": "shape",
+                        "name": "Face/Fcl_EYE_Sorrow",
+                        "factor": 1.0
+                    }
+                ],
+                "extra": []
+            },
+            "落ち込み": {
+                "lookAt": 1,
+                "base": [
+                    {
+                        "type": "animation",
+                        "name": "A-Pose"
+                    },
+                    {
+                        "type": "shape",
+                        "name": "Face/Fcl_BRW_Sorrow",
+                        "factor": 0.5
+                    },
+                    {
+                        "type": "shape",
+                        "name": "Face/Fcl_EYE_Close",
+                        "factor": 1.0
+                    }
+                ],
+                "extra": []
+            },
+            "目閉じ": {
+                "lookAt": 1,
+                "base": [
+                    {
+                        "type": "animation",
+                        "name": "A-Pose"
+                    },
+                    {
+                        "type": "shape",
+                        "name": "Face/Fcl_ALL_Close",
+                        "factor": 1.0
+                    }
+                ],
+                "extra": []
+            },
+            "おこ": {
+                "lookAt": 1,
+                "base": [
+                    {
+                        "type": "animation",
+                        "name": "A-Pose"
+                    },
+                    {
+                        "type": "shape",
+                        "name": "Face/Fcl_BRW_Angry",
+                        "factor": 0.7
+                    },
+                    {
+                        "type": "shape",
+                        "name": "Face/Fcl_EYE_Angry",
+                        "factor": 0.6
+                    },
+                    {
+                        "type": "shape",
+                        "name": "Face/Fcl_MTH_O",
+                        "factor": 1.0
+                    }
+                ],
+                "extra": []
+            },
+            "苦笑": {
+                "lookAt": 1,
+                "base": [
+                    {
+                        "type": "animation",
+                        "name": "A-Pose"
+                    },
+                    {
+                        "type": "shape",
+                        "name": "Face/Fcl_BRW_Sorrow",
+                        "factor": 0.5
+                    },
+                    {
+                        "type": "shape",
+                        "name": "Face/Fcl_EYE_Joy",
+                        "factor": 1.0
+                    }
+                ],
+                "extra": []
+            },
+            "苦笑2": {
+                "lookAt": 1,
+                "base": [
+                    {
+                        "type": "animation",
+                        "name": "A-Pose"
+                    },
+                    {
+                        "type": "shape",
+                        "name": "Face/Fcl_BRW_Sorrow",
+                        "factor": 0.5
+                    },
+                    {
+                        "type": "shape",
+                        "name": "Face/Fcl_EYE_Joy",
+                        "factor": 1.0
+                    }
+                ],
+                "extra": []
+            },
+            "驚き": {
+                "lookAt": 1,
+                "base": [
+                    {
+                        "type": "animation",
+                        "name": "A-Pose"
+                    },
+                    {
+                        "type": "shape",
+                        "name": "Face/Fcl_ALL_Surprised",
+                        "factor": 1.0
+                    }
+                ],
+                "extra": []
+            }
+        },
+        "1": {
+            "__default__": {
+                "base": [
+                    {
+                        "type": "animation",
+                        "name": "Unyu"
+                    }
+                ],
+                "extra": []
+            },
+            "素": {
+                "lookAt": 0,
+                "base": [
+                    {
+                        "type": "animation",
+                        "name": "Unyu"
+                    }
+                ],
+                "extra": []
+            }
+        }
+    }
+}

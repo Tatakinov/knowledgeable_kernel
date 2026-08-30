@@ -78,9 +78,15 @@ Linuxについてあることないこと喋るゴーストです。
 以下のライブラリ/ソフトウェアを使用しています。
 それぞれのライセンス詳細はLICENSE.txtを参照してください。
 
-Lua           | https://www.lua.org/
-sol2          | https://github.com/ThePhD/sol2/
-luautf8       | https://github.com/starwing/luautf8/
-luaex         | https://github.com/LuaDist/luaex/
-Luachild      | https://github.com/pocomane/luachild/
+里々(SATORI) | https://github.com/ukatech/satoriya-shiori
+
+## 追加シェルについて
+
+現状ninix-kagariでのみ動作を確認しています。
+sakuraはVroid StudioでVRMを出力->Blenderで調整してglb形式で出力しています。
+keroはBlender+GIMPで作っています。
+
+sakuraとkeroの両モデルとも
+再配布可、改変可となっていますが、
+エログロ政治宗教への利用は禁止とさせていただきます。
 
