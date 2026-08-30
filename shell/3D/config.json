@@ -8,7 +8,7 @@
             }
         },
         "1": {
-            "path": "unyu.glb",
+            "path": "gunyu.glb",
             "bone": {
                 "hips": "Bone.001",
                 "head": "Bone.004"
