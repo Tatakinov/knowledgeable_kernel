@@ -1,0 +1,18 @@
+＊mが押された
+＞Menu
+
+＊0つつかれ
+＞Menu
+
+＊Menu
+\0\s[素]
+\![*]\q[何か話して,OnTalkRandom]
+\![*]\q[設定,OnSetting]
+\n[half]\![*]\q[閉じる,OnCloseMenu]
+
+＊OnCloseMenu
+
+＊OnSetting
+\0工事中…
+\n[half]\![*]\q[閉じる,OnCloseMenu] \![*]\q[戻る,OnMenu]
+

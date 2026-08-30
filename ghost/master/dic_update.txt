@@ -1,0 +1,56 @@
+＊OnUpdateBegin
+%{
+    local command = 'apt upgrade';
+    local extra = '';
+    if (Shiori.Reference[3] != 'ghost') {
+        command = "apt install {Shiori.Reference[3]}";
+    }
+}
+＞ゴースト更新チェック	（Ｒ３）＝＝ghost
+\0\s[素]# apt install （Ｒ３）\w9\w9
+\_qパッケージリストを読み込んでいます...\_q\w4\_q完了\_q
+\_q依存関係ツリーを作成しています...\_q\w4\_q完了\_q
+\_q依存情報を読み取っています...\_q\w4\_q完了\_q
+\_qアップグレードパッケージを検出しています...\_q\w8\_q完了\_q
+
+＊ゴースト更新チェック
+\0\s[素]# apt install knowledgeable_kernel\w9\w9
+\_qパッケージリストを読み込んでいます...\_q\w4\_q完了\_q
+\_q依存関係ツリーを作成しています...\_q\w4\_q完了\_q
+\_q依存情報を読み取っています...\_q\w4\_q完了\_q
+\_qアップグレードパッケージを検出しています...\_q\w8\_q完了\_q
+
+＊OnUpdateReady
+＞ゴースト更新開始	（Ｒ３）＝＝ghost
+\C\0\_q以下のパッケージはアップグレードされます:
+ （Ｒ３）
+アップグレード: 1 個、新規インストール: 0 個、削除: 0 個、保留: 0 個。\n続行しますか? [Y/n]\_q
+
+＞ゴースト更新開始
+\C\0\_q以下のパッケージはアップグレードされます:
+ knowledgeable_kernel
+アップグレード: 1 個、新規インストール: 0 個、削除: 0 個、保留: 0 個。\n続行しますか? [Y/n]\_q
+
+＊OnUpdateComplete
+＞update_none	（Ｒ０）＝＝none
+
+＊update_none
+\C\0\_qアップグレード: 0 個、新規インストール: 0 個、削除: 0 個、保留: 0 個。\_q
+
+＊OnUpdate.OnDownloadBegin
+＞update_download_begin	（Ｒ３）＝＝ghost
+
+＊update_download_begin
+\C\0\_q取得:（Ｒ１） https://github.com/Tatakinov knowledgeable_kernel/master all （Ｒ０）\_q
+
+＊OnUpdate.OnMD5CompareBegin
+＞update_compare_begin	（Ｒ３）＝＝ghost
+
+＊update_compare_begin
+\C\0\_q（Ｒ０）を展開する準備をしています ...\_q
+
+＊OnUpdate.OnMD5CompareComplete
+＞update_compare_complete	（Ｒ３）＝＝ghost
+
+＊update_compare_complete
+\C\0\_q（Ｒ０）で上書き展開しています ...\_q

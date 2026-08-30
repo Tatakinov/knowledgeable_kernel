@@ -1,0 +1,50 @@
+＊
+\0\s[ドヤッ]ワンライナー紹介コーナー！_
+\1\s[素]$ find . -type f -name "?*.txt" -exec sed -i -e 's/ふいんき/ふんいき/g' {} \\;
+\0\s[素]\n[half]カレントディレクトリ以下のtxtファイル内の「ふいんき」を「ふんいき」に置換するよ。
+
+＃値に「,」が入ってるとうまく動作しないけど…
+＊
+\0\s[ドヤッ]ワンライナー紹介コーナー！_
+\1\s[素]$ < input.csv cut -f3,5 -d ',' | sort -t ',' -k 2
+\0\s[素]\n[half]input.csvの3列目と5列目のみを抽出して5列目の値でソートしたものを出力するよ。
+
+＊
+\0\s[ドヤッ]
+ワンライナー紹介コーナー！_\n
+\1\s[素]$ find . -type f -name "?*.txt" -exec grep -n "OnSecondChange" {} \\+
+\0\s[素]\n[half]カレントディレクトリ以下の「ほにゃらら.txt」の「OnSecondChange」が含まれる行をリストアップするよ。
+どのファイルの何行目にあるかまで分かるおまけ付き！_
+\1\n[half]実用上は
+$ grep -nr "OnSecondChange" .
+の方が楽でええかもな。
+
+＊
+\0\s[ドヤッ]ワンライナー紹介コーナー！_
+\1\s[素]$ for i in {0 .. 50}; do mv surface${i}.png surface$(printf "\%03d" $i).png; done
+\0\s[素]\n[half]surface0.png、surface1.png、…、surface50.pngをsurface000.png、surface001.png、…、surface050.pngへリネームするよ。
+
+＊
+\0\s[ドヤッ]ワンライナー紹介コーナー！_
+\1\s[素]$ cp /path/to/text.txt{,.bak}
+\0\s[素]\n[half]ファイルのバックアップを取るよ。
+\1\n[half]カレントディレクトリ以外のファイルに対しても使えるのがポイントやね。
+
+＊
+\0\s[ドヤッ]ワンライナー紹介コーナー！_
+\1\s[素]$ sed -i -e 's/.*/&\r/g' input.txt
+\0\s[素]\n[half]LFなファイルの改行コードをCRLFへ変更するよ。
+\1\n[half]Windowsで開いたときにちゃんと改行されるようになるんやね。
+
+＊
+\0\s[ドヤッ]ワンライナー紹介コーナー！_
+\1\s[素]$ ls 2022_0[4-8]_*.txt
+\0\s[素]\n[half]2022年の4月〜8月に作られたファイルをリストアップするよ。
+\1\n[half]前提としてファイルを「yyyy_mm_dd_ほにゃらら.txt」という形式で保存している必要があるけどな。
+
+＊
+\0\s[ドヤッ]ワンライナー紹介コーナー！_
+\1\s[素]$ for i in *.wav; do ffmpeg -i $i ${i\%.*}.mp3; done\w9\w9
+\0\s[素]\n[half]カレントディレクトリの○○.wavを○○.mp3に変換するよ。
+\1「bash 変数展開」でググれば色々出てくるでな。
+

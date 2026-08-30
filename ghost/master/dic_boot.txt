@@ -1,0 +1,80 @@
+＊OnFirstBoot
+\0\s[にこ]ようこそ、伺か with Linuxの世界へ！_
+\s[素]ボクは楠木。楠木梨奈(くすのき りな)。
+こっちの鈍色っぽいのがぬーさんことぐにゅうだよ。
+\1\s[素]よろしゅうな。
+\0\n[half]ほっとかれても適当にLinuxのことを喋るけど、用事があったらボクをダブルクリックしてね。
+\1\n[half]MキーやTキーを押してみたり、右クリックしてみるのも有効やで。
+\0\n[half]もし万が一伺かに触るのはボクらが初めて、なんて時はボクらだけでなく、色んなゴーストさんを導入して伺かライフを楽しんでね。
+
+＊OnBoot
+\1\s[-1]\0\s[-1]\b[0]
+\_q[    ] Loading SHIORI modules.\_q\w9\_q\_l[0,]  \f[color,lime]ok\f[color,default]\_q
+\_q[    ] Loading variable.\_q\w6\_q\_l[0,]  \f[color,lime]ok\f[color,default]\_q
+\_q[    ] Starting Login Service.\_q\w9\_q\_l[0,]  \f[color,lime]ok\f[color,default]\_q
+\w9\w9
+\![raise,OnBootCompleted]
+
+＊OnBootCompleted
+\0\s[にこ]Hello!\w9\w9
+\1\s[素]World!\w9\w9
+
+＊OnBootCompleted
+\0\s[にこ]ハロー！_
+\1\s[素]ワールド！
+
+＊OnBootCompleted
+\0\s[にこ]こんにちわ、世界！_
+\1\s[素]訳すと急にしょぼく見えるな…_\w9
+\0\n[half]\s[おこ]そういうこと、言わないの！
+
+＊OnClose
+\0\s[素]$ systemctl poweroff\w9\w9
+＞shutdown
+
+＊OnClose
+\0\s[素]# poweroff\w9\w9
+＞shutdown
+
+＊OnClose
+\0\s[素]# halt\w9\w9
+＞shutdown
+
+＊OnClose
+\0\s[ドヤッ]$ systemctl reboot！_
+\1こらこら。
+＞shutdown
+
+＊OnClose
+\0\s[素]$ systemctl poweroff\w9\w9\w9\w9
+\n[half]…あれ、終了しないね。
+\1\s[素]
+スワップインに時間が掛かっとるんやろな。
+\0\n[half]じゃあもう少し喋っ
+>shutdown
+}
+
+＊OnClose
+\0\s[素]# shutdown -h -t 0\w9\w9
+＞shutdown
+
+＊shutdown
+\_q\0\s[-1]\c\1\s[-1]\c\b[-1]\_q\0\b[0]\_q[    ] Saving variable.\_q\w6\_q\_l[0,]  \f[color,lime]ok\f[color,default]\_q
+\_q[    ] Unloading SHIORI modules.\_q\w9\_q\_l[0,]  \f[color,lime]ok\f[color,default]\_q
+\w9
+\_qSystem halted.\_q
+\w9\w9
+\-
+
+＊OnShellChanged
+＞（Ｒ０）シェルに変更
+
+＊masterシェルに変更
+\0\s[ドヤッ]ふふん、Linuxチョットツカエルヨ\w9\w9
+\1\s[素]大きくでたな。
+\0…_…_。\w9\w9Linux全然わからん。
+
+＊3Dシェルに変更
+\0\s[ドヤッ]どうどう、3Dのボク、かわいいでしょ！_
+\1\s[素]あー、うんうん、ええんとちゃうか。
+\0\n[half]\s[にこ]えへへー、でしょでしょ。\w9\w9…_…_\s[驚き]ってつめたっ！

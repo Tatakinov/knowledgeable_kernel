@@ -1,0 +1,6 @@
+＊tが押された
+＞OnTalkRandom
+
+＊OnTalkRandom
+（）
+

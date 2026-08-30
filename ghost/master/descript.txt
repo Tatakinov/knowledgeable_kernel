@@ -21,4 +21,4 @@ default.balloon.path,balloon_terminal
 
 sstp.allowunspecifiedsend,1
 
-shiori,kagari.dll
+shiori,satori.dll
